@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+   
+</head>
+<body>
+   
+    <nav id="nav-1">
+       <label class="logo">Libary System</label>
+       <ul>
+        <li><a id="books-1"class="active"href="#section-1">Books</a></li>
+        <li><a id="reg-1"class="active" href="#section-2">Register</a></li>
+        <li><a class="active"href="#">Contact Us</a></li>
+        <li><a class="active"href="#">Logout</a></li>
+       </ul>
+    </nav>
+    
+    <!-- table code -->
+
+    <section id="section-1">
+        <h1 id="book-heading">Books</h1>
+    <center>
+    
+  
+<table id="table-1" class="tbl-1"border="1px" >
+    <tr >
+        <th class="title">Book ID</th>
+        <th class="title">Title</th>
+        <th class="title">Author</th>
+        <th class="title">Genre</th>
+        <th class="title">Availability</th>
+    </tr >
+    <tr >
+        <td>1</td>
+        <td class="row-1"><a class="title-1"href="https://books.google.co.in/books?id=VYrTDwAAQBAJ&printsec=copyright&redir_esc=y#v=onepage&q&f=false">The Power of your Subconscious Mind</a>
+            <table class="nested-class-t"id="nested-table-1" >
+                <tr><td class="nested-class-cell">Publication Date: 1963</td></tr>
+                <tr><td class="nested-class-cell">Page Count: 273</td></tr>
+                <tr><td class="nested-class-cell">ISBN: 13:978-1-67816-459-1</td></tr>
+            </table>
+        </td>
+        <td >Joseph Murphy</td>
+        <td >Genre 1</td>
+        <td > Available</td>
+    </tr>
+
+    <tr >
+        <td >2</td>
+        <td class="row-1"><a class="title-1" href="http://www.lequydonhanoi.edu.vn/upload_images/S%C3%A1ch%20ngo%E1%BA%A1i%20ng%E1%BB%AF/Rich%20Dad%20Poor%20Dad.pdf">Rich Dad Poor Dad</a>
+            <table class="nested-class-t" id="nested-table-2" >
+            <tr><td class="nested-class-cell">Publication Date: 2012</td></tr>
+            <tr><td class="nested-class-cell">Page Count: 114</td></tr>
+            <tr><td class="nested-class-cell">ISBN: 871-476-7890123</td></tr>
+        </table></td>
+        <td >Robert T. Kiyosaki</td>
+        <td >Genre 2</td>
+        <td >Not Available</td>
+    </tr>
+
+    <tr >
+        <td >3</td>
+        <td class="row-1"><a class="title-1" href="https://vedpuran.files.wordpress.com/2012/03/unencrypted-geeta.pdf">Bhagwat Geeta</a>
+            <table class="nested-class-t" id="nested-table-3">
+                <tr><td class="nested-class-cell">Publication Date: ----</td></tr>
+                <tr><td class="nested-class-cell">Page Count: 256</td></tr>
+                <tr><td class="nested-class-cell">ISBN: -------------</td></tr>
+            </table>
+        </td>
+        <td >Maharishi Vedvyas Ji</td>
+        <td >Genre 3</td>
+        <td > Available</td>
+    </tr>
+</table>
+</center>
+</section>
+
+<!-- form code -->
+
+<section id="section-2">
+    <form action="#" id="form-1" method="post"><h1 id="f-h1">Register</h1>
+   
+     <label for="first_name">First Name:</label>
+     <br>
+    <div>
+    <input type="text" id="first_name" name="first_name" required>
+    </div>
+    
+   <br>
+    <label for="last_name">Last Name:</label>
+    
+    <div>
+    <input type="text" id="last_name" name="last_name" required>
+    </div>
+    <br>
+    <label for="dob">Date Of Birth:</label>
+    <div>
+    <input type="date" id="dob" name="dob" required><br>
+    </div>
+    <br>
+    <label for="age">Age</label>
+    <div>
+    <input type="number" name="age" id="age" required><br>
+    </div>
+    <br>
+    <label for="email">Email</label>
+    <div> 
+    <input type="email" name="email" id="email" required><br>
+    </div>
+    <br>
+    <label for="password">Password</label><br>
+    <div>
+    <input type="password" name="password" id="password" required><br>
+    </div>
+    <br>
+    <label for="confirm_password">Confirm Password</label><br>
+    <div>
+    <input type="password" id="confirm_password" name="confirm_password" required><br>
+    </div>
+    <div><br><br>
+    <button type="submit" id="btn">Register</button>
+    </div>
+</form>
+
+</section>
+
+
+
+</body>
+</html>
